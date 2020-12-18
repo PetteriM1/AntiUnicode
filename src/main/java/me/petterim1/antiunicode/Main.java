@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class Main extends PluginBase implements Listener {
 
-    private static final Pattern pattern = Pattern.compile("[^\\p{L}\\p{N}\\p{P}\\p{Z}]", Pattern.UNICODE_CHARACTER_CLASS);
+    private static final Pattern pattern = Pattern.compile("[^\\p{L}\\p{N}\\p{P}\\p{Z}\\p{Sm}\\p{Sc}\\p{Sk}]", Pattern.UNICODE_CHARACTER_CLASS);
 
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
