@@ -6,7 +6,7 @@
 
     <groupId>me.petterim1.antiunicode</groupId>
     <artifactId>AntiUnicode</artifactId>
-    <version>1.0.1</version>
+    <version>2.0</version>
     <build>
         <defaultGoal>install</defaultGoal>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
